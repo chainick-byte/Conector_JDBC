@@ -24,6 +24,7 @@ public class Conexion {
         bdSource.setUrl("jdbc:mysql://192.168.182.142/discografica?serverTimezone=UTC");
         bdSource.setUsername("root");
         bdSource.setPassword("");
+        
 
         try {
             conexion = bdSource.getConnection();
